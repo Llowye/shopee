@@ -269,7 +269,60 @@
 
     <div class="carousel-track" id="track">
 
-      <!-- ================= CARD 1: SEABANK ================= -->
+      <!-- ================= CARD 1: SHOPEEPAY ================= -->
+      <div class="carousel-card" data-index="2" data-audio-src="shopee.mp3">
+        <div class="player-card">
+          <div class="bg-blur" style="background-image:url('shopee.jpg')"></div>
+          <div class="overlay-dark"></div>
+          <div class="content">
+            <img class="art" src="shopee.jpg" alt="SHOPEEPAY">
+
+            <div class="track-info">
+              <div class="artist">Membasuh — Hindia (feat. Rara Sekar)</div>
+            </div>
+
+            <div class="progress-row">
+              <input type="range" class="seek" min="0" max="100" value="0">
+            </div>
+            <div class="time-row">
+              <span class="cur-time">0:00</span>
+              <span class="total-time">6:13</span>
+            </div>
+
+            <div class="controls">
+              <button class="ctrl-btn prev-btn" title="Ulang dari awal">
+                <svg viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
+              </button>
+              <button class="ctrl-btn play-btn" title="Play/Pause">
+                <svg class="play-icon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              </button>
+              <button class="ctrl-btn" disabled style="opacity:0.35;">
+                <svg viewBox="0 0 24 24"><path d="M16 6h2v12h-2zM6 6l8.5 6L6 18z"/></svg>
+              </button>
+            </div>
+
+            <div class="account-info">
+              <div class="account-row">
+                <div class="account-info-text">
+                  <span class="account-label">Atas Nama</span>
+                  <span class="account-value">ANNISA PUTRI</span>
+                </div>
+              </div>
+              <div class="account-row">
+                <div class="account-info-text">
+                  <span class="account-label">No. ShopeePay</span>
+                  <span class="account-value">08991740111</span>
+                </div>
+                <button class="copy-btn" data-copy="08991740111">Salin</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- ================= CARD 2: SEABANK ================= -->
       <!-- Ganti seabank.jpg, nama pemilik, no. rekening, dan VIDEO_ID sesuai punya kamu -->
       <div class="carousel-card" data-index="0" data-audio-src="seabank.mp3">
         <div class="player-card">
@@ -322,7 +375,7 @@
         </div>
       </div>
 
-      <!-- ================= CARD 2: GOPAY ================= -->
+      <!-- ================= CARD 3: GOPAY ================= -->
       <div class="carousel-card" data-index="1" data-audio-src="gopay.mp3">
         <div class="player-card">
           <div class="bg-blur" style="background-image:url('gopay.png')"></div>
@@ -374,16 +427,17 @@
         </div>
       </div>
 
-      <!-- ================= CARD 3: SHOPEEPAY ================= -->
-      <div class="carousel-card" data-index="2" data-audio-src="shopee.mp3">
+
+                <!-- ================= CARD 4: TEH ================= -->
+         <div class="carousel-card" data-index="1" data-audio-src="teh.mp3">
         <div class="player-card">
-          <div class="bg-blur" style="background-image:url('shopee.jpg')"></div>
+          <div class="bg-blur" style="background-image:url('teh.jpg')"></div>
           <div class="overlay-dark"></div>
           <div class="content">
-            <img class="art" src="shopee.jpg" alt="SHOPEEPAY">
+            <img class="art" src="teh.jpg" alt="TEH">
 
             <div class="track-info">
-              <div class="artist">Membasuh — Hindia (feat. Rara Sekar)</div>
+              <div class="artist">Teh Hijau — TULUS</div>
             </div>
 
             <div class="progress-row">
@@ -391,7 +445,7 @@
             </div>
             <div class="time-row">
               <span class="cur-time">0:00</span>
-              <span class="total-time">6:13</span>
+              <span class="total-time">3:30</span>
             </div>
 
             <div class="controls">
@@ -406,27 +460,12 @@
               </button>
             </div>
 
-            <div class="account-info">
-              <div class="account-row">
-                <div class="account-info-text">
-                  <span class="account-label">Atas Nama</span>
-                  <span class="account-value">ANNISA PUTRI</span>
-                </div>
-              </div>
-              <div class="account-row">
-                <div class="account-info-text">
-                  <span class="account-label">No. ShopeePay</span>
-                  <span class="account-value">08991740111</span>
-                </div>
-                <button class="copy-btn" data-copy="08991740111">Salin</button>
-              </div>
-            </div>
-
           </div>
-        </div>
-      </div>
+        </div>        
+         </div>
 
-      <!-- ================= CARD 4: DANA ================= -->
+      
+      <!-- ================= CARD 5: DANA ================= -->
       <div class="carousel-card" data-index="3" data-audio-src="dana.mp3">
         <div class="player-card">
           <div class="bg-blur" style="background-image:url('dana.jpg')"></div>
@@ -478,41 +517,7 @@
         </div>
       </div>
 
-      <!-- ================= CARD 5: TEH ================= -->
-         <div class="carousel-card" data-index="1" data-audio-src="teh.mp3">
-        <div class="player-card">
-          <div class="bg-blur" style="background-image:url('teh.jpg')"></div>
-          <div class="overlay-dark"></div>
-          <div class="content">
-            <img class="art" src="teh.jpg" alt="TEH">
-
-            <div class="track-info">
-              <div class="artist">Teh Hijau — TULUS</div>
-            </div>
-
-            <div class="progress-row">
-              <input type="range" class="seek" min="0" max="100" value="0">
-            </div>
-            <div class="time-row">
-              <span class="cur-time">0:00</span>
-              <span class="total-time">3:30</span>
-            </div>
-
-            <div class="controls">
-              <button class="ctrl-btn prev-btn" title="Ulang dari awal">
-                <svg viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
-              </button>
-              <button class="ctrl-btn play-btn" title="Play/Pause">
-                <svg class="play-icon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-              <button class="ctrl-btn" disabled style="opacity:0.35;">
-                <svg viewBox="0 0 24 24"><path d="M16 6h2v12h-2zM6 6l8.5 6L6 18z"/></svg>
-              </button>
-            </div>
-
-          </div>
-        </div>        
-      </div>
+  
       
     </div>
 
